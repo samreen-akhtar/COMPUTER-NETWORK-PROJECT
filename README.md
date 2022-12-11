@@ -12,10 +12,10 @@ By using socket programming on AWS platform, Interaction between admin and clien
    
    g++ client.cpp -lpthread -o client
    
-3.To run the server application, use this command in the terminal :
-  ./server
+3. To run the server application, use this command in the terminal :
+   ./server
   
 4. Now, open another terminal and use this command to run the client application :
-  ./client
+   ./client
   
 5. For opening multiple client applications, repeat step 4.
