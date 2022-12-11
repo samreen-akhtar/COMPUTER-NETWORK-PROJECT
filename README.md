@@ -7,8 +7,10 @@ By using socket programming on AWS platform, Interaction between admin and clien
 # HOW TO RUN 
 1. Clone this repository
 2. Run the following commands in your teminal:
+
    g++ server.cpp -lpthread -o server
    g++ client.cpp -lpthread -o client
+   
 3.To run the server application, use this command in the terminal :
   ./server
 4. Now, open another terminal and use this command to run the client application :
